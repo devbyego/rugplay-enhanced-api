@@ -1,0 +1,17 @@
+name = "rugplay-enhanced-api"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "rugplay-enhanced-db"
+database_id = "c53a5dc2-b108-4bb8-b11a-a16c201d5468"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "931d437ad09a4ff488879d61890129f8"
+
+[vars]
+
+[secrets]
